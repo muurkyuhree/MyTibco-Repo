@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_QDB44PCTEeyRfoUxHHDOLA" targetNamespace="http://tns.tibco.com/bw/composite/MyJDBC" name="MyJDBC" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_QZaYkPCTEeyRfoUxHHDOLA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZhGQPCTEeyRfoUxHHDOLA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZjigPCTEeyRfoUxHHDOLA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZml0PCTEeyRfoUxHHDOLA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZqQMPCTEeyRfoUxHHDOLA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZtTgPCTEeyRfoUxHHDOLA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZwW0PCTEeyRfoUxHHDOLA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZyzEPCTEeyRfoUxHHDOLA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QZ12YPCTEeyRfoUxHHDOLA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_yrhW4PCTEeyRfoUxHHDOLA" name="password" type="property:password" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2cypEPCTEeyRfoUxHHDOLA" name="db_host" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_7fNaEPCTEeyRfoUxHHDOLA" name="host" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="__VGtkPCTEeyRfoUxHHDOLA" name="ora_username" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_QNh4sPCTEeyRfoUxHHDOLA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_QNh4sfCTEeyRfoUxHHDOLA" processName="myjdbc.Process"/>
+  </sca:component>
+</sca:composite>
